@@ -8,5 +8,6 @@ go get "github.com/transcend-io/terragrunt-atlantis-config@$1"
 shift
 export FAST_MODE=true
 terragrunt-atlantis-config generate $@
+ls -lha
 
 
