@@ -10,5 +10,3 @@ export FAST_MODE=true
 terragrunt-atlantis-config generate $@
 
 
-# Enforce that the config looks how you'd expect
-diff atlantis.yaml atlantis.yaml.expected
